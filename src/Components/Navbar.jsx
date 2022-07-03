@@ -7,7 +7,6 @@ const Navbar = (props) => {
         window.addEventListener("scroll", (e) => {
             if (window.scrollY !== 0) {
                 setnavBarCss("drop-shadow-sm");
-                console.log("ok");
             }else{
                 setnavBarCss("");
             }
