@@ -8,7 +8,7 @@ const Header = () => {
                 <p className="text-4xl leading-none ">I’m an Informatics Student that interested on Frontend Web Development and Mobile App Development </p>
                 <div className="flex mt-6 justify-center lg:justify-start">
                     <LinkBtn href="#projects" className="mr-2" type="outlined">My Work</LinkBtn>
-                    <LinkBtn href="#" type="">Let's Talk'</LinkBtn>
+                    <LinkBtn href="#contact" type="">Let's Talk'</LinkBtn>
                 </div>
             </div>
             <img className="mt-8 lg:mt-0 max-w-sm mx-auto" src="./photo.png" alt="" />
