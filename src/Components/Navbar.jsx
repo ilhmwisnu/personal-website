@@ -18,7 +18,7 @@ const Navbar = (props) => {
     return (
         <div
             className={
-                "py-4 px-4 lg:px-20 xl:px-40 bg-white w-full fixed flex justify-between left-0 top-0 " +
+                "py-4 px-4 lg:px-20 xl:px-64 bg-white w-full fixed flex justify-between left-0 top-0 " +
                 navBarCss
             }
         >

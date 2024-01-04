@@ -6,22 +6,22 @@ const Projects = () => {
             <h2 className="text-3xl font-bold mb-6">Projects</h2>
             <div className="flex flex-col gap-16">
                 <ProjectTile
-                    title="sapien nec sagittis aliquam"
+                    title="SirKasir App"
                     subtitle="Mobile Development"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Morbi tincidunt augue interdum velit euismod."
-                    src="https://cdn.dribbble.com/users/7073797/screenshots/15509388/a00b9c20-b6b1-4fb9-9bb8-d69764322182_4x.png"
+                    desc="SirKasir is a robust point-of-sale (POS) and offline cashier application designed to streamline and enhance business operations. With user-friendly features, including easy sales recording, comprehensive sales reports, and data security, SirKasir enables businesses to manage transactions effortlessly."
+                    src="./sirkasir_project.png"
                 ></ProjectTile>
                 <ProjectTile
-                    title="nunc mi ipsum faucibus"
-                    subtitle="Website Development"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Morbi tincidunt augue interdum velit euismod."
-                    src="https://themes.getbootstrap.com/wp-content/uploads/2021/05/soft-ui-design-system-thumbnail.jpg"
+                    title="Siresto App"
+                    subtitle="Mobile Development"
+                    desc="Siresto is an innovative, cloud-based Restaurant Point of Sale (POS) application designed to revolutionize the way culinary establishments manage their operations. This online POS solution is crafted with a focus on user-friendliness and robust functionality to elevate the restaurant experience for both staff and customers."
+                    src="./siresto_project.png"
                 ></ProjectTile>
                 <ProjectTile
-                    title="adipiscing vitae proin sagittis"
+                    title="Cartgo UI Design"
                     subtitle="Mobile App Design"
-                    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hac habitasse platea dictumst quisque sagittis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Morbi tincidunt augue interdum velit euismod."
-                    src="https://images.wondershare.com/mockitt/ui-design/ui-example-round-corners-trend.png"
+                    desc="Cartgo is a comprehensive mobile application designed to revolutionize the agricultural product marketplace. This app serves as a platform connecting farmers, suppliers, and buyers, facilitating seamless transactions and fostering a thriving agricultural community. With an intuitive user interface and robust features, Cartgo aims to streamline the buying and selling process for agricultural products."
+                    src="./cartgo_project.png"
                 ></ProjectTile>
             </div>
         </div>

@@ -7,10 +7,9 @@ const ProjectTile = (props) => {
                 <p className="mt-4">{props.desc}</p>
             </div>
             <div
-                className="rounded-2xl mt-0 lg:mt-0"
+                className="rounded-2xl mt-0 aspect-video  xl:h-72 "
                 style={{
                     backgroundImage: `url(${props.src})`,
-                    height: 300,
                     backgroundSize: "cover",
                 }}
             ></div>

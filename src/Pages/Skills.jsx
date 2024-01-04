@@ -12,10 +12,10 @@ const Skills = () => {
                     detail="Make Android App using Flutter. I have some experience building android apps integrated with firebase as a database."
                 ></SkillCard>
                 <SkillCard
-                    skill="Front-End Web Development"
+                    skill="Web Development"
                     className="w-16"
-                    imgSrc="./React.png"
-                    detail="Develop website on Frontend side. There are several technologies that i used, such as TailwindCSS, BootstrapCSS, and VueJs but currently I am still focusing to learn ReactJs."
+                    imgSrc="./javascript.png"
+                    detail="Develop website and a web app. There are several technologies that I used, such as TailwindCSS, BootstrapCSS, VueJs, ReactJs, and ExpressJS"
                 ></SkillCard>
                 <SkillCard
                     skill="UI Design"
