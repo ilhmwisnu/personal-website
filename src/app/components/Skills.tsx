@@ -8,19 +8,19 @@ const Skills = () => {
         <SkillCard
           skill="Mobile App Development"
           className="w-16"
-          imgSrc="./ic-android.png"
+          imgSrc="/ic-android.png"
           detail="Make Android App using Flutter. I have some experience building android apps integrated with firebase as a database."
         ></SkillCard>
         <SkillCard
           skill="Web Development"
           className="w-16"
-          imgSrc="./ic-web.png"
+          imgSrc="/ic-web.png"
           detail="Develop website and a web app. There are several technologies that I used, such as TailwindCSS, BootstrapCSS, VueJs, ReactJs, and ExpressJS"
         ></SkillCard>
         <SkillCard
           skill="UI Design"
           className="w-16"
-          imgSrc="./ic-design.png"
+          imgSrc="/ic-design.png"
           detail="Design an Apps Interface. When I'm working on an individual project, I quite often design the app UI by myself using Figma"
         ></SkillCard>
       </div>
