@@ -1,4 +1,12 @@
-const ProjectTile = (props) => {
+
+type Props = {
+    title : string,
+    subtitle : string,
+    desc : string,
+    src : string,
+}
+
+const ProjectTile = (props: Props) => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-4 gap-x-16">
             <div className="">
