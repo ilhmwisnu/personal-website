@@ -33,7 +33,12 @@ const Contact = () => {
           </p>
           <div className="flex justify-center sm:justify-start gap-6 mt-4">
             <a href="https://www.linkedin.com/in/ilhmwisnu/">
-              <Image height={40} width={40} src="/ic-linkedin.png" alt="linkedin" />
+              <Image
+                height={40}
+                width={40}
+                src="/ic-linkedin.png"
+                alt="linkedin"
+              />
             </a>
             <a href="https://www.tiktok.com/@ilhmwisnu">
               <Image height={40} width={40} src="/ic-tiktok.png" alt="tiktok" />
@@ -42,7 +47,12 @@ const Contact = () => {
               <Image height={40} width={40} src="/ic-x.png" alt="x" />
             </a>
             <a href="https://www.instagram.com/ilhmwisnu/">
-              <Image height={40} width={40} src="/ic-instagram.png" alt="instagram" />
+              <Image
+                height={40}
+                width={40}
+                src="/ic-instagram.png"
+                alt="instagram"
+              />
             </a>
           </div>
         </div>

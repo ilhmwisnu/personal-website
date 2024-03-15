@@ -1,4 +1,6 @@
 import LinkButton from "@/components/LinkButton";
+import Image from "next/image";
+
 
 const Header = () => {
   return (
@@ -22,10 +24,12 @@ const Header = () => {
           <LinkButton href="#contact">Let's Talk'</LinkButton>
         </div>
       </div>
-      <img
+      <Image
         className="m-4 mt-8 lg:mt-0 max-w-sm mx-auto"
-        src="./photo.png"
-        alt=""
+        width={366}
+        height={422}
+        src="/photo.png"
+        alt="logo"
       />
       {/* <img className="mt-8 lg:mt-0 max-w-sm mx-auto" src="/avatar.png" alt="" /> */}
     </div>

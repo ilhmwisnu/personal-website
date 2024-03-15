@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   let [navBarCss, setnavBarCss] = useState("");
@@ -23,7 +24,7 @@ const Navbar = () => {
       }
     >
       <a href="#main">
-        <img src="/logo.svg" alt="Logo" />
+        <Image width={50} height={40} src="/logo.svg" alt="Logo" />
       </a>
       <ul className="flex font-light text-base text-neutral-900 items-center">
         <li className="ml-4 cursor-pointer hover:text-primary">
